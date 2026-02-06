@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8">
+    <title>بازی ایرانی زیگزاگ</title>
+
+    <!-- توضیحات برای سئو -->
+    <meta name="description" content="زیگ‌زاگ یک بازی ایرانی سرگرم‌کننده و چالش‌برانگیز است؛ با گیم‌پلی ساده اما اعتیادآور، طراحی مینیمال و مراحل متنوع که شما را ساعت‌ها سرگرم می‌کند. همین حالا تجربه کنید!">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- آیکن‌ها -->
+    <link rel="icon" href="bazi.ico" sizes="any">
+    <link rel="icon" type="image/png" href="bazi.png">
+    <link rel="apple-touch-icon" href="bazi.png">
+
+    <!-- تأییدیه گوگل -->
+    <meta name="google-site-verification" content="IQ5iVAE94LG7SgyUKhN3laEfWAPuWWU5Zs4O3N9Dih4">
+
+    <!-- فونت وزیرمتن -->
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css">
+
+    <!-- فونت آیکن‌ها -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        header {
+  top:0;
+  z-index:11;
+  width: 100%;
+  margin-bottom:15px;
+  padding: 10px 21px;
+  background: #1A1A1A;
+  color :#8B0000;
+  display: flex;
+position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+        }
+      .nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #8B0000;
+  font-size: 20px;
+      }
+      /* انیمیشن بالا و پایین */
+      @keyframes upDown {
+        0%, 100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-10px);
+        }
+      }
+body{
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.7);
+        font-family: 'Vazirmatn', sans-serif;
+        background-color:#121212 ;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        color :#8B0000;
+      }
+
+      div {
+        text-align: center;
+      }
+
+      #hj {
+        animation: upDown 2.5s infinite;
+        margin-top: 40px;
+      }
+
+      #main-icon {
+        border-radius: 8px;
+      }
+
+      p {
+        font-family: 'Vazirmatn', sans-serif;
+        line-height: 1.8;
+        padding: 0 16px;
+      }
+
+      #counter {
+        font-size: 32px;
+        font-weight: bold;
+        color: #333;
+        margin-top: 8px;
+      }
+
+      h1 {
+        margin: 8px 0;
+      }
+
+button {
+  background-color: #8B0000;
+  color:#f6e5e5;
+  border: none;
+  padding: 12px 26px;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 15px rgba(139, 0, 0, 0.7);
+}
+
+button:active {
+  background-color: #a00000;
+  box-shadow: 0 0 30px rgba(255, 0, 0, 0.9);
+  transform: scale(1.05);
+}
+
+
+      button:active {
+        transform: scale(0.95) translateY(2px);
+        box-shadow: 5px 5px 10px grey;
+      }
+
+      #scrollTopBtn {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        padding: 16px 16px;
+        background-color:#1b1b1b;
+        color: white;
+        border: none;
+        border-radius: 100%;
+        cursor: pointer;
+        z-index: 10;
+      }
+
+      #scrollTopBtn:hover {
+        background-color:#bf2929;
+      }
+
+      #cv {
+        margin-top: 40px;
+        width: 100%;
+        background-color: #999999;
+        color: white;
+        border-top: 2px solid #666666;
+        padding: 12px 0;
+        font-size: 14px;
+      }
+#likeCount{
+font-size:27px;
+}
+#likeBtn{
+        background: lightred;
+        color: white;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+        margin: 8px;
+}
+#likeBtn:active{
+     transform: scale(0.95) translateY(2px);
+}
+    </style>
+  </head>
+
+  <body>
+    <header>
+     <nav class="nav">
+    <a href="index.html" target="_blank">خانه</a>
+    <a href="about.html" target="_blank">درباره</a>
+    <a href="#">تغییرات</a>
+     </nav>
+    </header>
+</div>
+    <div id="hj">
+      <img
+        id="main-icon"
+        src="https://s.cafebazaar.ir/images/icons/studio.RayMoon.ZigzagRacer-7cea0dfd-eb53-4738-99cb-d33849752b3b_512x512.png?x-img=v1/format,type_webp,lossless_false/resize,h_128,w_128,lossless_false/optimize"
+        alt="آیکن بازی زیگزاگ"
+        width="300">
+    </div>
+
+<h2>معرفی بازی زیگزاگ | zigzag</h2>
+
+    <p>
+      زیگ‌زاگ یه بازی ساده‌ست، اما خیلی زود می‌فهمی که چقدر می‌تونه هیجان‌انگیز باشه. فقط کافیه با یه لمس مسیرت رو عوض کنی و روی راه‌های شکسته و زیگ‌زاگی حرکت کنی. هر پیچ یه چالش جدیده، هر لحظه یه تصمیم تازه. اگه تمرکزت رو حفظ کنی، رکوردهای بزرگ منتظرته. بازی سبک و سریع اجرا میشه، پس هر جا و هر وقت می‌تونی امتحانش کنی. حتی وقتی اینترنت نداری، باز هم می‌تونی رکورد بزنی. ظاهر بازی مینیمال و تمیزه، تا حواست فقط به حرکت باشه. رنگ‌ها و افکت‌ها باعث میشن هر بار تجربه تازه‌ای داشته باشی. موسیقی و صداها هم همراهت هستن تا هیجان رو بیشتر کنن. کنترل‌ها خیلی ساده‌ان، اما حرفه‌ای شدن زمان می‌بره. هر بار که بازی می‌کنی، می‌تونی بهتر بشی و رکورد بالاتری بزنی. دوست داری با بقیه رقابت کنی؟ رکوردت رو به اشتراک بذار. چالش‌های روزانه و هفتگی هم هستن تا همیشه انگیزه داشته باشی. زیگ‌زاگ برای همه‌ست؛ چه تازه‌کار باشی چه حرفه‌ای. این بازی یه تست واقعی از سرعت و تمرکزته. هر پیچ فرصتیه برای نشون دادن مهارتت. پس آماده شو، لمس کن و حرکت کن. زیگ‌زاگ منتظرته تا رکورد تازه‌ای ثبت کنی. بیا ببین تا کجا می‌تونی پیش بری. هر بار یه تجربه جدیده، هر بار یه ماجراجویی تازه. زیگ‌زاگ فقط یه بازی نیست، یه همراه برای لحظه‌های خالیته. وقتی شروع کنی، دیگه سخت میشه ولش کنی. بازی سبک، سریع و پرانرژیه. یه لمس کوچیک، یه تغییر بزرگ. همه‌چی به واکنش تو بستگی داره. زیگ‌زاگ ساده‌ست، اما هیچ‌وقت تکراری نمیشه. هر بار که برگردی، یه رکورد تازه در انتظارت هست. بیا رکوردت رو بشکن و به بقیه نشون بده. زیگ‌زاگ هم تفریحیه، هم چالش‌برانگیز. یه بازی که می‌تونه دوست همیشگی گوشی‌ت باشه. پس همین حالا شروع کن و ببین تا کجا می‌تونی بری. زیگ‌زاگ آماده‌ست، فقط منتظر لمس توست. بیا با هم رکوردهای تازه بسازیم. زیگ‌زاگ، جایی که هر پیچ یه ماجراجوییه.
+    </p>
+<div class="ch">
+    <h2>+500</h2>
+    <h1>نصب فعال</h1>
+</div>
+
+    <br>
+
+
+    <button id="scrollTopBtn" aria-label="بازگشت به بالا">
+      <i style="font-size:15px ;" class="fas fa-arrow-up"></i>
+    </button>
+
+    <br><br>
+<div class="ch">
+
+
+<div id="counterEl">
+<span id="likeCount">درحال بارگذاری...</span>
+<p>نفر پسندیده اند</p>
+</div>
+   </div>
+<style>
+.sh {
+  width: auto;
+  height:auto;
+  background-color:#fcfbfb;
+  border:2px solid:#121212;
+}
+</style>
+<br>
+<button id="likeBtn">پسندیدن</button>
+<br>
+<!-- Rating by www.1abzar.com --->
+<script type="text/javascript" src="http://1abzar.ir/abzar/tools/rating/rating.php?color=444444&bg=EFEFEF&kc=433455&h=1&kadr=0&n=5&mod=7&abzar=e4ku6kxw01vwhz0dbi82"></script><div style="display:none"><h2><a href="http://www.1abzar.com/abzar/rating.php">&#1575;&#1576;&#1586;&#1575;&#1585; &#1575;&#1605;&#1578;&#1740;&#1575;&#1586; &#1583;&#1607;&#1740;</a></h2></div>
+<!-- Rating by www.1abzar.com --->
+<br>
+    <a href="http://cafebazaar.ir/app/?id=studio.RayMoon.ZigzagRacer&ref=share">
+      <img
+        src="https://cdn.developers.cafebazaar.ir/2021/05/bazaar-badge2.png"
+        alt="دانلود از کافه بازار"
+        width="190">
+    </a>
+
+<br><br>
+<!-- Statistics by www.1abzar.com --->
+<script type="text/javascript" src="https://1abzar.ir/abzar/tools/stat/amar-v3.php?color=333333&bg=F7F4D9&kc=888888&kadr=1&amar=9ivfevna0w9nsi27p2-epxd2anv17u&show=1|1|1|1|0|1|1"></script><div style="display:none"><h3><a href="https://www.1abzar.com/abzar/stat.php">&#1570;&#1605;&#1575;&#1585;&#1711;&#1740;&#1585; &#1608;&#1576;&#1604;&#1575;&#1711;</a></h3></div>
+<!-- Statistics by www.1abzar.com --->
+<div id="cv">
+    <p>تمامی حقوق محفوظ است</p>
+<!-- Contact Form by www.1abzar.com ---><a href="http://www.1abzar.com/visit/contact-form/?email=z1342965@gmail.com" target="_blank"><img border=0 src="http://1abzar.ir/abzar/tools/contact-form/c3.png" alt="تماس با ما"></a><!-- Contact Form by www.1abzar.com --->
+</div>
+    <script>
+      // دکمه اسکرول به بالا
+      document.getElementById("scrollTopBtn").addEventListener("click", function () {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+      });
+//like
+
+
+// =========================
+// تنظیمات
+// =========================
+const CONFIG = {
+  BIN_ID: "695edc1dd0ea881f405ba8a8",               // شناسه Bin
+
+API_KEY: "$2a$10$dCoA46lHkykudYIaQrbeEebyVYkDUkCUG8EfS3HAvSJ/XsV.qj2j6",     // کلید Master
+
+FIELD: "likes",                      // نام فیلد
+  likeLockKey: "liked_once_BIN_YOUR_BIN_ID", // کلید localStorage
+  baseURL: "https://api.jsonbin.io/v3/b",
+  animationDuration: 600               // مدت انیمیشن شمارنده (ms)
+};
+
+// =========================
+// ابزار عمومی
+// =========================
+function animateNumber(el, from, to, ms = CONFIG.animationDuration){
+  const start = performance.now();
+  const diff = to - from;
+  function step(now){
+    const t = Math.min(1, (now - start)/ms);
+    const eased = 1 - Math.pow(1 - t, 3); // easeOutCubic
+    const val = Math.round(from + diff * eased);
+    el.textContent = val;
+    if(t < 1){ requestAnimationFrame(step); }
+  }
+  requestAnimationFrame(step);
+}
+
+// =========================
+// API های JSONBin
+// =========================
+async function getLikes(){
+  const url = `${CONFIG.baseURL}/${CONFIG.BIN_ID}/latest`;
+  const res = await fetch(url, {
+    method: "GET",
+    headers: {
+      "X-Master-Key": CONFIG.API_KEY,
+      "X-Bin-Meta": "false"
+    }
+  });
+  if(!res.ok) throw new Error("خطا در دریافت داده");
+  const data = await res.json();
+  return Number(data[CONFIG.FIELD] ?? 0);
+}
+
+async function setLikes(newValue){
+  const url = `${CONFIG.baseURL}/${CONFIG.BIN_ID}`;
+  const body = {};
+  body[CONFIG.FIELD] = newValue;
+
+  const res = await fetch(url, {
+    method: "PUT",
+    headers: {
+      "Content-Type": "application/json",
+      "X-Master-Key": CONFIG.API_KEY
+    },
+    body: JSON.stringify(body)
+  });
+  if(!res.ok) throw new Error("خطا در ذخیره‌سازی");
+  const saved = await res.json();
+  return Number(saved.record?.[CONFIG.FIELD] ?? newValue);
+}
+
+// =========================
+// منطق لایک
+// =========================
+let currentLikes = 0;
+
+async function initLikes(counterEl){
+  currentLikes = await getLikes();
+  counterEl.textContent = currentLikes;
+}
+
+async function handleLike(counterEl, btnEl){
+  const likedOnce = localStorage.getItem(CONFIG.likeLockKey) === "1";
+  if(likedOnce) return; // فقط یک بار
+
+  const prev = currentLikes;
+  const optimistic = prev + 1;
+
+  // انیمیشن خوش‌بینانه
+  animateNumber(counterEl, prev, optimistic);
+  btnEl.disabled = true;
+
+  try{
+    const saved = await setLikes(optimistic);
+    currentLikes = saved;
+    animateNumber(counterEl, optimistic, saved);
+    localStorage.setItem(CONFIG.likeLockKey, "1");
+  }catch(err){
+    console.error(err);
+    btnEl.disabled = false;
+    animateNumber(counterEl, optimistic, prev, 400);
+  }
+}
+
+// =========================
+// استفاده
+// =========================
+// فرض کن المنت‌ها رو داری:
+const counterEl = document.getElementById("likeCount");
+const btnEl = document.getElementById("likeBtn");
+
+initLikes(counterEl);
+btnEl.addEventListener("click", () => handleLike(counterEl, btnEl));
+      </script>
