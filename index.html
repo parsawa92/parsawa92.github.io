@@ -195,7 +195,12 @@ font-size:27px;
     </button>
 
     <br><br>
-<div class="ch">
+<div id="counterEl">
+<span id="likeCount">درحال بارگذاری...</span>
+<p>نفر پسندیده اند</p>
+</div>
+   </div>
+<button id="likeBtn">پسندیدن</button>
 
 
 
@@ -240,9 +245,9 @@ font-size:27px;
 // تنظیمات
 // =========================
 const CONFIG = {
-  BIN_ID: "695edc1dd0ea881f405ba8a8",               // شناسه Bin
+  BIN_ID: "6988c300d0ea881f40aa6a29",               // شناسه Bin
 
-API_KEY: "$2a$10$dCoA46lHkykudYIaQrbeEebyVYkDUkCUG8EfS3HAvSJ/XsV.qj2j6",     // کلید Master
+API_KEY: "$2a$10$eJLYTyR7igDc7vq22hoPre8zvySBXc9wKsnEVquXhju4O41BMhMUy",     // کلید Master
 
 FIELD: "likes",                      // نام فیلد
   likeLockKey: "liked_once_BIN_YOUR_BIN_ID", // کلید localStorage
